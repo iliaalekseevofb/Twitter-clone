@@ -1,28 +1,13 @@
-# Create T3 App
+# Twitter clone by Ilia Alekseev
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Twitter clone is a web-application built with Next.js, NextAuth.js, Prisma, tRPC, and TailwindCSS. This application uses Planetscale as it's main and only Database.
 
-## What's next? How do I make an app with this?
+## Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This application allows anybody to sign in with Discord, and then create tweets, like tweets of other users, research profile pages, and keep track of followers and followings. But if user is not logged in, he can only see the tweets of other people.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Moreover, I implemented infinite scroll functionality, so only certain amount of tweets will be loaded at first page load. But as you scroll down, older tweets will be loaded as well.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Deployment
 
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Since it's the Next.js application, I decided to deploy it on Vercel. Link: [Deploy](https://twitter-clone-iliaalekseev.vercel.app/).
