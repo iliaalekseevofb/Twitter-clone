@@ -29,7 +29,7 @@ export const tweetRouter = createTRPCRouter({
               followers: { some: { id: currentUserId } }
             }
           },
-      limit: 10,
+      limit: limit,
       ctx: ctx,
       cursor: cursor
     });
