@@ -10,4 +10,4 @@ Moreover, I implemented infinite scroll functionality, so only certain amount of
 
 ## Deployment
 
-Since it's the Next.js application, I decided to deploy it on Vercel. Link: [Deploy](https://twitter-clone-iliaalekseev.vercel.app/).
+Since it's the Next.js application, I decided to deploy it on Vercel. Please, don't be afraid of Chrome browser warnings, I don't collect any personal data, and you won't have to share it anywhere using this application. It warns you just because of the domain which includes phrase "twitter-clone". Link: [Deploy](https://twitter-clone-iliaalekseev.vercel.app/).
